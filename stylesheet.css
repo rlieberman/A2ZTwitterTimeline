@@ -1,0 +1,50 @@
+body {
+  background:#f37041;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  margin:0;
+  text-align: center;
+  color:white;
+
+}
+
+h1 {
+  font-size: 72px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin:0px;
+  font-weight: 100;
+  text-transform: uppercase
+}
+
+p {
+  font-size:30px;
+  font-weight: 100;
+  padding-bottom:20px;
+}
+
+#container {
+
+ margin: 0 auto; 
+ width: 1000px;
+}
+
+.twitter-timeline {
+  margin-left:150px;
+  margin-right:150px;
+  position: absolute;
+  padding: 10px;
+}
+
+
+a.twitter-timeline:hover,
+a.twitter-timeline:focus {
+  background-color: #dedede;
+}
+
+/* Color Highlight for keyboard navigation */
+
+a.twitter-timeline:focus {
+  outline: none;
+  border-color: #0089cb;
+}
