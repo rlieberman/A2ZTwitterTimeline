@@ -1,20 +1,25 @@
+@font-face {
+    font-family: Graphik;
+    src: url(fonts/Graphik-Semibold.otf);
+}
+
 body {
-  background:#f37041;
-  font-family: 'Raleway', sans-serif;
+  background:#fbcfbd;
+  font-family: 'Graphik', sans-serif;
   font-weight: 100;
   margin:0;
   text-align: center;
-  color:white;
+  color:#f0563c;
 
 }
 
 h1 {
   font-size: 72px;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 0px;
   margin:0px;
   font-weight: 100;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
 p {
@@ -26,25 +31,18 @@ p {
 #container {
 
  margin: 0 auto; 
- width: 1000px;
+ width: 1200px;
 }
 
-.twitter-timeline {
+#timeline1, #timeline2, #timeline3 {
+  display:inline-block;
+}
+
+
+/*.twitter-timeline {
   margin-left:150px;
   margin-right:150px;
   position: absolute;
   padding: 10px;
 }
-
-
-a.twitter-timeline:hover,
-a.twitter-timeline:focus {
-  background-color: #dedede;
-}
-
-/* Color Highlight for keyboard navigation */
-
-a.twitter-timeline:focus {
-  outline: none;
-  border-color: #0089cb;
-}
+*/
