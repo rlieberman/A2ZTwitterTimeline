@@ -10,6 +10,8 @@ body {
   margin:0;
   text-align: center;
   color:#f0563c;
+  pointer-events: none;
+  cursor: default;
 
 }
 
@@ -33,7 +35,7 @@ p {
 #container {
 
  margin: 0 auto; 
- width: 1200px;
+ width: 1500px;
 }
 
 #timeline1, #timeline2, #timeline3 {
